@@ -16,3 +16,18 @@ body {
   font-family: Times New Roman;
   font-size: 18px;
 }
+
+.subheader {
+    font-weight: bold;
+    font-size: 24x;
+}
+
+#fmoments{
+    background-color:#9b0c0c;
+    text-align: center;
+}
+
+#fplayers{
+    background-color:rgb(17, 105, 146);
+    text-align: center;
+}
