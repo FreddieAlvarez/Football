@@ -8,18 +8,20 @@
     crossorigin="anonymous">
 
     <!--Link to the styleshet called style.css-->
-    <link rel="stylesheet" href="css/style.css">
+   $ <!--link rel="stylesheet" href="css/style.css"-->
   </head> 
   <body> 
-    <header>
-    <h1>My Football Page</h1>
-    </header>
-    <main>
-      <section>
-    <p>This is a page all about the New York Giants and players I like!</p>
-    <h2>New York Giants</h2>
-    <img src="Images/giants.png" alt = "New York Giants Logo" width = "10%">
-  </section>
+    <div class ="container mt-4">
+      <header class="text-center mb-4">
+        <h1>My Football Page</h1>
+        <p class="lead">This is a page all about the New York Giants and player I like!</p>
+      </header>
+
+      <main>
+        <section>
+          <h2>New York Giants</h2>
+          <img src="Images/giants.png" alt = "New York Giants Logo" width = "10%">
+        </section>
   <!--Added new flexbox-->
   <div id="flex-container">
   <section id="fmoments">
@@ -48,13 +50,33 @@
     </ul>
     <p>Learn more about <a href = "https://en.wikipedia.org/wiki/New_York_Giants">New York Giants</a></p>
   </section>
-  </div>
+</div>
+
+<div class="row">
+  <section class="col-md-6 mb-4">
+    <h3>Favorite Players</h3>
+    <ul>
+      <li>Malik Nabers</li>
+      <li>Victor Cruz</li>
+      <li>Eli Manning</li>
+    </ul>
+  </section>
+  <section class="col-md-6 mb-4">
+    <h3>Favorite Giants Moments</h3>
+    <ol>
+      <li>Super Bowl Win 2008</li>
+      <li>The Helmet Catch</li>
+      <li>Drafting Malik Nabers</li>
+    </ol>
+  </section>
+</div>
 </main>
 
-    <footer>
-      <nav>
-        <p><a href="players.html">Players</a></p>
-      </nav> 
-    </footer>
+      <footer>
+        <nav>
+          <p><a href="players.html">Players</a></p>
+        </nav> 
+      </footer>
+    </div>
   </body> 
 </html>
